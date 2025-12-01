@@ -130,7 +130,7 @@ export default function GetInvolvedPage() {
             <div className="grid md:grid-cols-2 gap-4 max-w-2xl mx-auto mb-6">
               <div className="text-left bg-slate-50 rounded-lg p-4">
                 <CheckCircle className="w-5 h-5 text-green-600 mb-2" />
-                <p className="text-slate-700">Ages 16-24</p>
+                <p className="text-slate-700">Ages 13-18</p>
               </div>
               <div className="text-left bg-slate-50 rounded-lg p-4">
                 <CheckCircle className="w-5 h-5 text-green-600 mb-2" />
