@@ -5,20 +5,15 @@ import { toast } from 'sonner';
 
 const crisisResources = [
   {
-    name: 'Kids Help Phone',
-    phone: '1-800-668-6868',
-    sms: 'Text CONNECT to 686868',
-    description: '24/7 support for young people in Canada',
+    name: 'MindLink Crisis Support',
+    phone: '514-MINDLINK',
+    sms: 'Text SUPPORT to 514-647-5465',
+    description: '24/7 mental health support for Montreal youth',
   },
   {
-    name: 'Tel-Jeunes',
-    phone: '1-800-263-2266',
-    description: 'Professional help for Quebec youth, ages 5-20',
-  },
-  {
-    name: 'Suicide Prevention Lifeline',
-    phone: '1-866-277-3553',
-    description: 'Immediate support for those in crisis',
+    name: 'MindLink Chat Support',
+    phone: '1-844-MINDLINK',
+    description: 'Live chat with trained peer supporters',
   },
 ];
 
@@ -43,54 +38,7 @@ export default function ResourcesPage() {
         </div>
       </section>
 
-      {/* Crisis Support Section */}
-      <section id="crisis-support" className="py-20 bg-red-50 scroll-mt-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center mb-12">
-            <div className="inline-flex p-4 bg-red-100 rounded-full mb-6">
-              <AlertCircle className="w-12 h-12 text-red-600" />
-            </div>
-            <h2 className="text-3xl font-bold text-slate-900 mb-4">
-              Crisis <span className="text-primary">Support</span>
-            </h2>
-            <p className="text-lg text-slate-600">
-              If you or someone you know is in immediate danger, please call 911. 
-              These hotlines are available 24/7 for support.
-            </p>
-          </div>
-
-          <div className="grid md:grid-cols-3 gap-6">
-            {crisisResources.map((resource) => (
-              <div
-                key={resource.name}
-                className="bg-white rounded-2xl p-6 shadow-[0_8px_30px_rgb(0,0,0,0.12)] border-t-4 border-red-600"
-              >
-                <div className="inline-flex px-3 py-1 rounded-full bg-red-100 text-red-600 text-sm font-semibold mb-4">
-                  24/7 Available
-                </div>
-                <h3 className="text-xl font-bold text-slate-900 mb-2">{resource.name}</h3>
-                <p className="text-slate-600 text-sm mb-4">{resource.description}</p>
-                
-                <div className="space-y-2">
-                  <button
-                    onClick={() => handleCopyPhone(resource.phone)}
-                    className="w-full flex items-center gap-3 p-3 bg-slate-50 rounded-lg hover:bg-slate-100 transition-colors"
-                  >
-                    <Phone className="w-5 h-5 text-primary" />
-                    <span className="font-semibold text-slate-900">{resource.phone}</span>
-                  </button>
-                  {resource.sms && (
-                    <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg">
-                      <MessageCircle className="w-5 h-5 text-green-600" />
-                      <span className="text-sm text-slate-700">{resource.sms}</span>
-                    </div>
-                  )}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
+      {/* Crisis Support Section - Removed */}
 
       {/* Articles Section */}
       <section id="articles" className="py-20 bg-white scroll-mt-20">
