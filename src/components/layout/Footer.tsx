@@ -3,28 +3,28 @@ import { Facebook, Instagram, Twitter, Youtube, Mail, Phone, MapPin } from 'luci
 
 const footerNavigation = {
   about: [
-    { name: 'Our Story', href: '/about/our-story' },
-    { name: 'Team', href: '/about/team' },
-    { name: 'Impact', href: '/about/impact' },
-    { name: 'Annual Reports', href: '/about/annual-reports' },
+    { name: 'Our Story', href: '/about#our-story' },
+    { name: 'Team', href: '/about#team' },
+    { name: 'Impact', href: '/about#impact' },
+    { name: 'Annual Reports', href: '/about#annual-reports' },
   ],
   services: [
-    { name: 'Workshops', href: '/services/workshops' },
-    { name: 'Online Programs', href: '/services/online-programs' },
-    { name: 'Peer Support', href: '/services/peer-support' },
-    { name: 'Campaigns', href: '/services/campaigns' },
+    { name: 'Workshops', href: '/services#workshops' },
+    { name: 'Online Programs', href: '/services#online-programs' },
+    { name: 'Peer Support', href: '/services#peer-support' },
+    { name: 'Campaigns', href: '/services#campaigns' },
   ],
   resources: [
-    { name: 'Crisis Support', href: '/resources/crisis-support' },
-    { name: 'Articles', href: '/resources/articles' },
-    { name: 'Videos', href: '/resources/videos' },
-    { name: 'Professional Help', href: '/resources/professional-help' },
+    { name: 'Crisis Support', href: '/resources#crisis-support' },
+    { name: 'Articles', href: '/resources#articles' },
+    { name: 'Videos', href: '/resources#videos' },
+    { name: 'Professional Help', href: '/resources#professional-help' },
   ],
   getInvolved: [
-    { name: 'Volunteer', href: '/get-involved/volunteer' },
-    { name: 'Youth Ambassadors', href: '/get-involved/youth-ambassadors' },
-    { name: 'Donate', href: '/get-involved/donate' },
-    { name: 'Partnerships', href: '/get-involved/partnerships' },
+    { name: 'Volunteer', href: '/get-involved#volunteer' },
+    { name: 'Youth Ambassadors', href: '/get-involved#ambassadors' },
+    { name: 'Donate', href: '/get-involved#donate' },
+    { name: 'Partnerships', href: '/get-involved#partnerships' },
   ],
 };
 
